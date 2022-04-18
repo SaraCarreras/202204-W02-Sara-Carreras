@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito", sans-serif;
+}
+
+.navbar {
+    box-shadow: 0px 1px 4px 2px #605e5e18;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.header_button {
+    border: none;
+    border-radius: 0px 60px 60px 60px;
+    background-color: rgba(235, 101, 58, 255);
+    font-size: 0.6rem;
+    font-weight: 800;
+    width: 90px;
+    height: 40px;
+    color: rgba(255, 255, 255, 0.812);
+}
+.burguer_menu {
+    display: flex;
+    flex-direction: column;
+    width: 60px;
+    height: 60px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.line {
+    height: 3px;
+    width: 40px;
+    background-color: black;
+}
+
+.image1_title,
+.image2_title,
+.image3_title {
+    font-weight: 400;
+}
+
+.header_main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+    justify-content: space-around;
+    height: 200px;
+    width: 100%;
+}
+
+.header_title {
+    color: rgba(235, 101, 58, 255);
+}
+.header_subtitle {
+    font-size: 35px;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.image_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 10px;
+    border-radius: 30px;
+    margin: 10px;
+    width: 350px;
+    height: 260px;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+.image1 {
+    background-image: url(/Images/01-2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.image2 {
+    background-image: url(/Images/02.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.image3 {
+    background-image: url(/Images/03.jpg);
+    background-size: cover;
+    background-position: center;
+}

@@ -12,23 +12,28 @@
     justify-content: space-between;
     padding: 10px;
 }
+#image_logo {
+    cursor: pointer;
+}
 .header_button {
     border: none;
-    border-radius: 0px 60px 60px 60px;
+    border-radius: 0px 1.4rem 1.4rem 1.4rem;
     background-color: rgba(235, 101, 58, 255);
-    font-size: 0.6rem;
+    font-size: 0.7rem;
     font-weight: 800;
-    width: 90px;
-    height: 40px;
-    color: rgba(255, 255, 255, 0.812);
+    width: 6.4rem;
+    height: 2.5rem;
+    color: white;
+    cursor: pointer;
 }
 .burguer_menu {
     display: flex;
     flex-direction: column;
     width: 60px;
-    height: 60px;
+    height: 40px;
     justify-content: space-evenly;
     align-items: center;
+    cursor: pointer;
 }
 .line {
     height: 3px;
@@ -56,7 +61,7 @@
     color: rgba(235, 101, 58, 255);
 }
 .header_subtitle {
-    font-size: 35px;
+    font-size: 45px;
 }
 main {
     display: flex;
@@ -75,20 +80,24 @@ main {
     height: 260px;
     color: white;
     text-shadow: 1px 1px 1px black;
+    cursor: pointer;
 }
 
 .image1 {
     background-image: url(/Images/01-2.jpg);
     background-size: cover;
     background-position: center;
+    filter: brightness(0.7);
 }
 .image2 {
     background-image: url(/Images/02.jpg);
     background-size: cover;
     background-position: center;
+    filter: brightness(0.7);
 }
 .image3 {
     background-image: url(/Images/03.jpg);
     background-size: cover;
     background-position: center;
+    filter: brightness(0.7);
 }

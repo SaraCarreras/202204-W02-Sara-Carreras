@@ -52,9 +52,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 10px;
+
     justify-content: space-around;
-    height: 200px;
+    height: 9rem;
     width: 100%;
 }
 
@@ -102,8 +102,112 @@ main {
     background-position: center;
     filter: brightness(0.7);
 }
+.dropdown_Menu,
+.header_desktop_button_Buy {
+    display: none;
+}
 
 @media (min-width: 900px) {
+   
+   *{
+       color: black;
+       text-decoration: none;
+   }
+    .burguer_menu {
+        display: none;
+    }
+ 
+    .navbar {
+        padding: 1.1rem;
+    }
+    .desktop_nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        padding-right: 20px;
+    }
+    .dropdown_Menu {
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 600px;
+        height: 3rem;
+        font-size: 1.1rem;
+        font-weight: 800;
+    }
+
+    .dropdown_Menu li {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        border-bottom: 3px solid transparent;
+    }
+    .dropdown_Menu li:hover {
+        cursor: pointer;
+        color: #ed632f;
+        border-bottom: 3px solid #ed632f;
+    }
+    .dropdown_menu_LiveDemo {
+        display: none;
+    }
+    .Live_Demo_tittle {
+        position: relative;
+    }
+    .Live_Demo_tittle:hover .dropdown_menu_LiveDemo {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        top: 3rem;
+        padding-right: 5px;
+        background: white;
+    }
+
+    .dropdown_menu_LiveDemo {
+        position: absolute;
+        height: 150px;
+        width: 250px;
+        color: black
+        padding: 0px 15px 0px 15px;
+    }
+
+    .dropdown_menu_LiveDemo li {
+        border-bottom: 2px solid #c4c2c2;
+    }
+
+    .dropdown_menu_LiveDemo li:hover {
+       
+        border-bottom: 2px solid #ed632f;
+        color:#ed632f;
+    
+    }
+
+    .dropdown_menu_LiveDemo_item li:hover{
+        color:#ed632f;
+    }
+
+
+    .header_desktop_button_Buy {
+        display: flex;
+        padding: 0.5rem;
+        padding-left: 1.2rem;
+        padding-top: 0.59rem;
+        height: 3.3rem;
+        width: 8.7rem;
+        cursor: pointer;
+        font-size: 1.2rem;
+        font-weight: 500;
+        border-radius: 0rem 1.5rem 1.5rem 1.5rem;
+        background: white;
+        border: 3px solid rgba(235, 101, 58, 255);
+    }
+
+    .header_desktop_button_Buy:hover {
+        background-color: rgba(235, 101, 58, 255);
+        color: white;
+    }
+
     .main {
         display: flex;
         justify-content: center;
